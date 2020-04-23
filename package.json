@@ -1,0 +1,24 @@
+{
+ "name": "@markarian/vue-componentz",
+ "version": "0.0.4",
+ "description": "My Components",
+ "main": "./dist/index.js",
+ "scripts": {
+  "dev": "vue serve src/MyButton.vue",
+  "build": "bili --name index --plugin vue --vue.css false",
+  "bundle": "bili --bundle-node-modules"
+ },
+ "files": [
+  "dist/*"
+ ],
+ "author": "David Rodal",
+ "license": "ISC",
+ "dependencies": {
+  "@markarian/wargame-helpers": "0.0.3"
+ },
+ "devDependencies": {
+  "bili": "^4.9.0",
+  "rollup-plugin-vue": "^5.1.6",
+  "vue-template-compiler": "^2.6.11"
+ }
+}
